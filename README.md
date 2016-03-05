@@ -9,12 +9,13 @@ as adding all the values from 5 to 10, not adding an interval that begins a 5 an
 this way because the tree will not always store the intervals in the form that they were added. For example, if you
 add(1,2) and then add(2, 3), the tree will contain only one interval, (1, 3).
 
-
+```
     (5, 10)
      /   \
  (0, 1)  (15, 20)
            \
            (25, 30)
+```
 
 ## API
 
