@@ -1,6 +1,6 @@
 # discrete-interval-tree
 
-A discrete interval tree is a binary search tree that stores non overlapping (discrete) ranges (intervals).
+A discrete interval tree is a binary search tree that stores non-overlapping (discrete) intervals.
 Unlike a normal interval tree, a discrete interval tree does not allow overlap, and will extend and merge existing
 intervals as needed to keep the smallest possible data structure.
 
